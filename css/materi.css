@@ -40,7 +40,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, blockquote
 margin: 0;
 padding: 0;
 direction: ltr;
-background: #F3EB1;
+
 }
 
 body {
@@ -692,7 +692,7 @@ opacity: 1;
 }
 
 .container.left {
-  left: 0;
+  left: 0%;
 }
 
 .container.right {
@@ -734,7 +734,7 @@ opacity: 1;
 .container .date {
   position: absolute;
   display: inline-block;
-  top: calc(50% - 8px);
+  top: calc(49% - 8px);
   text-align: center;
   font-size: 14px;
   font-weight: bold;
@@ -745,11 +745,11 @@ opacity: 1;
 }
 
 .container.left .date {
-  right: -75px;
+  right: -105px;
 }
 
 .container.right .date {
-  left: -75px;
+  left: -105px;
 }
 
 .container .icon {
