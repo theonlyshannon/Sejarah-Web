@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #B30000;
+    background-color: #B30000;  
     font-family: 'Poppins', sans-serif;
     display: flex;
     align-items: center;
@@ -56,6 +56,16 @@ button{
     font-family: inherit;
     padding: 1.3rem;
 }
+
+
+img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 30%; /* Sesuaikan ukuran gambar dengan ukuran layar */
+    z-index: -1; /* Untuk memastikan gambar berada di belakang konten */
+  }
 
 button:hover{
   background: #F6D155;
